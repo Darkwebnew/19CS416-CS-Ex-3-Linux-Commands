@@ -1,10 +1,22 @@
 # EX - 3 Installation And Configuration Of Oracle  Virtual Box & Kali Linux, And Execution Of Basic Linux Commands
 
-**Linux** is an open-source operating system, and its kernel is the heart of the OS, facilitating communication between hardware and software. One of the key advantages of Linux is its customizability; developers can modify the Linux kernel to create their own tailored operating systems.
+## Aim
+To install and configure Oracle VirtualBox with Kali Linux and execute basic Linux commands to understand their usage in the Linux environment.
 
-## Linux Commands
+---
 
-Linux commands are executed in the terminal, which is case-sensitive. This guide covers some basic and advanced commands used in Linux.
+## Procedure
+
+1. Download and install Oracle VirtualBox from the official site: https://www.virtualbox.org/
+2. Download Kali Linux ISO image from: https://www.kali.org/get-kali/
+3. Create a new Virtual Machine in VirtualBox, selecting Linux/Debian 64-bit as type.
+4. Assign memory and create virtual hard disk.
+5. Attach Kali Linux ISO as boot disk and start the VM.
+6. Follow Kali Linux installation prompts to install the OS.
+7. After installation, boot Kali Linux and open the terminal.
+8. Execute basic Linux commands in the terminal to verify their operation.
+
+---
 
 ### 1. `ls` Command
 
@@ -423,6 +435,5 @@ find /etc -name "passwd"
 ### Output:
 ![image](https://github.com/user-attachments/assets/74844dc1-0c8a-45d3-ac0d-93da990187ca)
 
-
-## Result :
-Linux commands are executed in the linux terminal successfully.
+## Result
+The installation and configuration of Oracle VirtualBox and Kali Linux were successfully completed. Basic Linux commands were executed in the Kali Linux terminal to verify the functionality and demonstrate fundamental Linux operations.
